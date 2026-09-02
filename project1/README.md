@@ -2,7 +2,7 @@
 
 Due: **Friday, February 20th, 2026 at 11:59PM**
 
-Prior to starting **Project 1**, ensure you have went through the entirety of the [Setup README](https://github.com/umd-cmsc389e/spring26/tree/main/setup). 
+Prior to starting **Project 1**, ensure you have went through the entirety of the [Setup README](https://github.com/umd-cmsc389e/fall26/tree/main/setup). 
 
 ## Importing Projects
 To import the project, you need to download `project1 TEMPLATE.zip`, extract it, and move it into the `saves` folder of your Modrinth installation folder. The easiest way of doing this is the following:
@@ -54,7 +54,7 @@ Projects will be submitted and autograded via **Gradescope**. If you are not alr
 
 
 ## WorldEdit Basics
-*For these tasks, utilize the WorldEdit mod. Refer to the [Setup README](https://github.com/umd-cmsc389e/spring26/tree/main/setup) for commands!*
+*For these tasks, utilize the WorldEdit mod. Refer to the [Setup README](https://github.com/umd-cmsc389e/fall26/tree/main/setup) for commands!*
 
 6. **Elevate the Crafting Area**  
    Move this little crafting area 10 blocks upwards into the air.
