@@ -20,7 +20,7 @@ Ensure that you already have a Minecraft Account and (optionally) the Default Mi
 
 1. Download the Modrinth Client from https://modrinth.com/app.
 
-2. Download the [Modrinth modpack file](https://github.com/umd-cmsc389e/spring26/blob/main/setup/CMSC389E%201.0.3.mrpack), which is also available in this directory.
+2. Download the [Modrinth modpack file](https://github.com/umd-cmsc389e/fall26/blob/main/setup/CMSC389E%201.0.3.mrpack), which is also available in this directory.
 
 3. Right-click and open the modpack file once downloaded. Once the launcher is opened, you will be prompted to sign into your Minecraft account, located in the top right. Please authenticate to your **Minecraft** account.
 ![image](images/image1.png)
