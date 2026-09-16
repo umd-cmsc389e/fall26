@@ -19,7 +19,7 @@ To import the project, you need to download `project2 TEMPLATE.zip`, extract it,
 Projects will be submitted and autograded via **Gradescope**. If you are not already in the **Gradescope**, the join code can be found in the syllabus. To submit the project, you will need to locate your `project2` world file, zip it into `project2.zip`, and submit it into the relevant Gradescope assignment. Here's a step-by-step:
 
 1. Go to your Modrinth Launcher's and navigate to the CMSC389E instance we created during setup *(same as above)*. Locate the button next to instance settings and click on **Open Folder**.
-2. Go to the `saves` folder, right click on `project2`, and compress it to **ZIP File**. 
+2. Go to the `saves` folder, right click on `project2`, and compress it to **ZIP File**. **It MUST be named `project2` before compressing, or else the autograder will not work.**
 3. Go to the Gradescope assignment and upload the relevant **ZIP File**.
 
 ## Notes
