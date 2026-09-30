@@ -249,7 +249,7 @@ Let's start out by building the **8-bit logic gates**. We would highly recommend
 <details>
 <summary><b>Note 6B: CCA (carry cancel adder)</b></summary>
 
-- This is a **Carry Cancel Adder**, the *start of the art* implementation of an **8-bit adder** in Minecraft!
+- This is a **Carry Cancel Adder**, the *state of the art* implementation of an **8-bit adder** in Minecraft!
 
 - You don't need to know how it works — but you will need to use it in the future.
 
