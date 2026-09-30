@@ -6,3 +6,4 @@ This is where you'll find all the project materials for class.
 * [Setup](https://github.com/umd-cmsc389e/fall26/tree/main/setup)
 * [Project 1](https://github.com/umd-cmsc389e/fall26/tree/main/project1)
 * [Project 2](https://github.com/umd-cmsc389e/fall26/tree/main/project2)
+* [Project 3](https://github.com/umd-cmsc389e/fall26/tree/main/project3)
