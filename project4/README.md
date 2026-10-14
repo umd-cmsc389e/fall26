@@ -1,6 +1,6 @@
 # CMSC389E Project 4 - The Register File
 
-Due: **Friday, April 10th at 11:59PM** on **[Gradescope](https://www.gradescope.com/courses/1115053/assignments/6991705)**
+Due: **Friday, October 30th at 11:59PM** on **[Gradescope](https://www.gradescope.com/courses/1380362/assignments/8873439)**
 
 This project involves building a fully functioning **Register File** in Minecraft using **redstone**! The goal is to implement fundamental digital logic circuits and integrate them into a working **Register File**. We will then integrate the **Register File** with the **ALU** from the previous project to perform sequential computations such as computing the *fibonacci sequence!*
 
@@ -35,7 +35,7 @@ Projects will be submitted and autograded via **Gradescope**. If you are not alr
 ## Resources
 
 * **[MattBatWings - The Register File](https://youtu.be/LUQZR8i_t-0?si=P94aof3Ju8mIypSF)**
-* **[CMSC389E Lecture 7 Slides](https://docs.google.com/presentation/d/1n2NcCx6EFX-6K-XBHdnFKhL83dPqqTS3ofeZvmCg3K0/edit?usp=sharing)**
+* **[CMSC389E Lecture 7 Slides](https://docs.google.com/presentation/d/1_T0DDJo0YK40loQcmKSpQLvOtUcwCvDZG1WfK-UY8hU/edit?usp=sharing)**
 
 ## Before we get to the Register File...
 
