@@ -1,6 +1,6 @@
 # CMSC389E Project 3 - The ALU
 
-Due: **Friday, March 20th, 2025 at 11:59PM** on **[Gradescope](https://www.gradescope.com/courses/1240118/assignments/7536766/)**
+Due: **Friday, October 16th, 2026 at 11:59PM** on **[Gradescope](https://www.gradescope.com/courses/1380362/assignments/8776013/)**
 
 This project involves building an **Arithmetic Logic Unit (ALU)** in Minecraft using Redstone! The goal is to implement fundamental digital logic circuits and integrate them into a working **ALU**. We will then extend the functionality of the **ALU** with **opcodes**.
 
@@ -249,7 +249,7 @@ Let's start out by building the **8-bit logic gates**. We would highly recommend
 <details>
 <summary><b>Note 6B: CCA (carry cancel adder)</b></summary>
 
-- This is a **Carry Cancel Adder**, the *start of the art* implementation of an **8-bit adder** in Minecraft!
+- This is a **Carry Cancel Adder**, the *state of the art* implementation of an **8-bit adder** in Minecraft!
 
 - You don't need to know how it works — but you will need to use it in the future.
 
