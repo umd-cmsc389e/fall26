@@ -87,6 +87,7 @@ Projects will be submitted and autograded via **Gradescope**. If you are not alr
     - Two outputs: **Q (current memory state)**, **Q' (complement of Q)**
 - A **D Latch** is essentially a **Gated SR Latch** but the **set-reset** inputs are toggled with a single **D (Data)** input.
 - The following logic gate description may help you:
+    - Note: error in diagram - NOT gate should be on the TOP data wire, not the bottom one 
 ![image](images/image4.png)
 
 - The truth table is also provided below:
@@ -298,7 +299,7 @@ Let's get started by building a single register, with a **reading** function. No
 - **Worldedit hint**:
     - If you use *Worldedit* correctly, you won't have to place a single block for this part.
     - **USE `//flip` PLEASE**. Otherwise, I might cry :D. `//flip` simply flips what have you copied on your **clipboard** relative to the direction that you are facing. Before attempting to flip the **Register File**, try practicing on **Hint 10**. 
-    - What you essentially want to do is select your single read register file with the *lapis block* at `(174, 57, 1)` and *emerald block* at `(-183, 85, 31)`, stand on the *emerald block* at `(-174, 88, 1)` while facing the front of the register file, use `//flip left` to flip what's copied in your clipboard to the left (wow how intuitive), and then use `//paste`.
+    - What you essentially want to do is select your single read register file with the *lapis block* at `(-174, 57, 1)` and *emerald block* at `(-183, 85, 31)`, stand on the *emerald block* at `(-174, 88, 1)` while facing the front of the register file, use `//flip left` to flip what's copied in your clipboard to the left (wow how intuitive), and then use `//paste`.
     - When using `//copy` with `//flip`, the same rules of *relative positioning* apply as when you use `//copy`. We stand on the *emerald block* because it is centered on the **register file**, so when we use `//paste` it turns out exactly how we want it to.
     - Note, when you finish mirroring your **Register File**, it will also mirror the **clock signal** over to the left. However, we only need a single **clock signal input**, so break the excess that got copied over to the left. Otherwise, **writing** will not work.
 

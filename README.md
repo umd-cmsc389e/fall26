@@ -8,3 +8,4 @@ This is where you'll find all the project materials for class.
 * [Project 2](https://github.com/umd-cmsc389e/fall26/tree/main/project2)
 * [Project 3](https://github.com/umd-cmsc389e/fall26/tree/main/project3)
 * [Project 4](https://github.com/umd-cmsc389e/fall26/tree/main/project4)
+* [Project 5](https://github.com/umd-cmsc389e/fall26/tree/main/project5)
