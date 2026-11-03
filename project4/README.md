@@ -87,7 +87,7 @@ Projects will be submitted and autograded via **Gradescope**. If you are not alr
     - Two outputs: **Q (current memory state)**, **Q' (complement of Q)**
 - A **D Latch** is essentially a **Gated SR Latch** but the **set-reset** inputs are toggled with a single **D (Data)** input.
 - The following logic gate description may help you:
-    - Note: error in diagram - NOT gate should be on the TOP data wire, not the bottom one 
+
 ![image](images/image4.png)
 
 - The truth table is also provided below:
