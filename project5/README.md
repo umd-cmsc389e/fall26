@@ -43,9 +43,9 @@ A **program counter** allows us to step through instructions in memory, one at a
 
 A **period** is the total time it takes for a clock signal to go from `ON` to `OFF` and back to `ON` again — this is one full cycle. The **frequency** is how many of these cycles happen per second, essentially controlling the speed of the system.
 
-In Minecraft, we use **ticks** to **measure time**. Unfortunately, Minecraft operates on a different tick rate than real-life. In MC, one real tick (0.1s) is two game ticks. When we say something like a "20-tick period," we mean it takes 40 game ticks (2 seconds) for a full `ON→OFF→ON` cycle. That means the repeaters in one cycle (`ON-to-OFF` and `OFF-to-ON`) add up to 20 ticks. This timing controls how fast your Redstone clock pulses — and ultimately, how fast your program "runs." Try it out by using `/tick freeze` and `/tick step`.
+In Minecraft, we use **ticks** to **measure time**. Unfortunately, Minecraft operates on a different tick rate than real-life. In MC, one redstone tick (0.1s) is two game ticks. When we say something like a "20-tick period," we mean it takes 40 game ticks (2 seconds) for a full `ON→OFF→ON` cycle. That means the repeaters in one cycle (`ON-to-OFF` and `OFF-to-ON`) add up to 20 ticks. This timing controls how fast your Redstone clock pulses — and ultimately, how fast your program "runs." Try it out by using `/tick freeze` and `/tick step`.
 
-💡 For now, just worry about **real** ticks and make sure the repeater and comparator delays add to a specified amount.
+💡 For now, just worry about **redstone** ticks and make sure the repeater and comparator delays add to a specified amount.
 
 ### Step 1: 2-Tick Output Pulse
 
@@ -57,7 +57,7 @@ Create a redstone circuit that produces a **2-tick output pulse** (approx. 0.1 s
 - You will need a comparator and repeater. Think about how you can cancel a comparator signal after 2 ticks.
 - A pulse is useful for triggering single updates like register writes or adder calculations. You can set a tick delay or output pulse by **clicking on a repeater**
 
-> **Hint**: A repeater is 1 real tick by default, and then one more for every "delay" on it
+> **Hint**: A repeater is 1 redstone tick by default, and then one more for every "delay" on it
 
 ---
 
@@ -65,12 +65,12 @@ Create a redstone circuit that produces a **2-tick output pulse** (approx. 0.1 s
 
 Add a clock that repeatedly produces the **2-tick pulse** from Step 1.
 
-- Your goal: Create a **13-tick period clock** (*26 game ticks*) with a **2-tick output pulse**.
+- Your goal: Create a **26-tick period clock** (*52 game ticks*) with a **2-tick output pulse**.
 - *IRL, the clock will run continuously until a **halt** signal is activated. Later on, a halt signal will stop the execution of our programs.*
 
-> **Hint**: A comparator takes one real tick to propagate signal
+> **Hint**: A comparator takes one redstone tick to propagate signal, and the time for one period is a full cycle of on and off.
   
-> 💡 **Note 1**: We've provided a **33-tick period clock** (*66 game ticks*) with a 3-tick output pulse and a **halt signal**. You’re welcome to model off of it's clock portion—it’s reliable and integrates well with later components.
+> 💡 **Note 1**: We've provided a **66-tick period clock** (*132 game ticks*) with a 3-tick output pulse and a **halt signal**. You’re welcome to model off of it's clock portion—it’s reliable and integrates well with later components.
 
 ---
 ### Step 3: Reuse Your 4-Bit Adder from P2
@@ -102,7 +102,7 @@ Recreate your 4-bit adder and turn it into a counter that only updates **on a 2-
 ### Step 5: Add Clock to Your Counter
 
 Now attach your clock from **Step 2** to the counter you built in Step 4.
-- Ensure your clock is generating a **2-tick pulse** for every **13 tick** period.
+- Ensure your clock is generating a **2-tick pulse** for every **26 tick** period.
 - This should make the counter automatically increment with each **clock pulse**.
 - Double-check that:
   - Your input/output lamps haven’t changed position.
