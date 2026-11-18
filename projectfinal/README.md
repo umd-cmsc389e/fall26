@@ -67,6 +67,7 @@ Your task will be to do the following:
 
 ### 2. Use `main.py` to compile your assembly program into a schematic
 - To use `main.py`, simply run `python main.py [filename]` where `filename` is your assembly program.
+- Ex: Say your file is in `/programs/this_is_my_file.as`. You would run `python main.py this_is_my_file`. 
 - Note: The assembly file you want to compile should be in a `programs` folder on the same level as `main.py`.
 
 ### 3. Move the schematic into your `./schematics` folder
